@@ -1,0 +1,43 @@
+# --- Identity ---
+name: "peer-review-preparation-flow"
+display_name: "Peer Review Preparation Flow"
+description: "Preparing manuscripts for peer review submission — formatting, self-review, and response to reviewers"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/peer-review-preparation-flow"
+
+# --- Discovery (Hub) ---
+category: "researcher"
+tags:
+  - "peer-review"
+  - "manuscript"
+  - "journal-submission"
+  - "academic-publishing"
+  - "research"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "anthropic-claude"
+  permissions: []
+  data_handling:
+    - "research-manuscripts"
+    - "reviewer-feedback"
+
+# --- Contents ---
+contents:
+  skills: 3
+  prompts: 5
+  workflows: 1
+  services: 1
+  sources: 1
+  documents: 1
+  assets: 1
+  total: 13
