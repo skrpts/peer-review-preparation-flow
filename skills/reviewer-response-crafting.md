@@ -5,7 +5,7 @@ title: Reviewer Response Crafting
 description: "Drafts professional point-by-point responses to peer reviewer comments"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: journal-submission-standards
     type: references

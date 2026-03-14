@@ -5,7 +5,7 @@ title: Manuscript Self-Review
 description: "Performs rigorous self-review of academic manuscripts against peer review criteria"
 tags: [Production, Tested]
 connections:
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: journal-submission-standards
     type: references

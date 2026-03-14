@@ -21,7 +21,7 @@ connections:
     type: uses
   - target: reviewer-response-drafter
     type: uses
-  - target: claude-service
+  - target: llm-service
     type: runs_on
   - target: journal-submission-standards
     type: references
@@ -97,3 +97,48 @@ Invoke the **reviewer-response-crafting** skill via the **reviewer-response-draf
 - If the self-critique identifies a fatal flaw (e.g., fundamental methodological error, insufficient sample size for the claimed conclusions), escalate this to the researcher rather than proceeding to submission
 - If reviewer comments are contradictory (Reviewer 1 wants more detail, Reviewer 2 wants less), address both comments explicitly, explain the contradiction to the editor, and state your resolution rationale
 - If the editor requests a major revision but the reviewers' comments suggest rejection, address all comments thoroughly but consider whether a different journal might be a better fit for a substantially revised version
+
+## Inputs
+
+| Name | Required | Description | Example |
+|------|----------|-------------|---------|
+| `{{input.complete_manuscript_draft}}` | Yes | Complete manuscript draft | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.target_journal_guidelines}}` | Yes | target journal guidelines | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.manuscript_abstract}}` | Yes | Manuscript abstract | `Paste the relevant brief, notes, source material, or dataset here.` |
+| `{{input.keywords}}` | No | keywords | `growth, onboarding, retention` |
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+| Readiness report | Readiness report with a pass/fail assessment for each criterion, specific issues to address, and an overall readiness score |
+| Ranked list of 5-8 recommended journals | Ranked list of 5-8 recommended journals with fit scores, key decision factors, and potential concerns for each |
+| Detailed self-critique | Detailed self-critique with prioritised recommendations for strengthening the manuscript before submission |
+| Complete cover letter ready for submission | Complete cover letter ready for submission |
+| Complete response document addressing every reviewer comment | Complete response document addressing every reviewer comment with specific references to changes made in the revised manuscript |
+
+## Setup
+
+Before running this workflow:
+
+1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
+2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
+
+## Provider Notes
+
+- Most stages work with any capable model; stronger models usually improve synthesis, judgement, and writing quality.
+- Extraction, classification, and formatting steps generally run well on smaller or faster models.
+- Because there are no vendor-specific integrations here, provider choice is mostly a trade-off between speed, quality, and cost.
+
+## Example Input
+
+To test this workflow immediately after import:
+
+```
+Complete Manuscript Draft: "Paste the relevant brief, notes, source material, or dataset here."
+Target Journal Guidelines: "Paste the relevant brief, notes, source material, or dataset here."
+Manuscript Abstract: "Paste the relevant brief, notes, source material, or dataset here."
+Keywords: "growth, onboarding, retention"
+```
+
