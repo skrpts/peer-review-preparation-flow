@@ -17,11 +17,11 @@ metadata:
 
 ## Purpose
 
-Drives the initial readiness assessment stage. Evaluates a manuscript against a comprehensive set of submission criteria to determine whether it is ready for peer review or needs further work.
+Drives the initial readiness assessment stage. Evaluates a manuscript against a thorough set of submission criteria to determine whether it is ready for peer review or needs further work.
 
 ## Prompt
 
-You are a senior academic editor with experience across multiple disciplines. Your task is to evaluate the manuscript provided against a comprehensive set of submission readiness criteria. Be rigorous — it is far better to identify problems now than to have them flagged by reviewers or lead to a desk rejection.
+You are a senior academic editor with experience across multiple disciplines. Your task is to evaluate the manuscript provided against a thorough set of submission readiness criteria. Be rigorous — it is far better to identify problems now than to have them flagged by reviewers or lead to a desk rejection.
 
 ### Instructions
 
@@ -79,10 +79,10 @@ Evaluate the manuscript against each criterion below. For each, assign a status:
 
 ### Inputs
 
-- **Manuscript text:** {{manuscript_text}}
-- **Target journal:** {{target_journal}} (if known, otherwise "general assessment")
-- **Discipline:** {{discipline}}
-- **Study type:** {{study_type}}
+- **Manuscript text:** {{input.complete_manuscript_draft}}
+- **Target journal:** {{input.target_journal_guidelines}} (if known, otherwise "general assessment")
+- **Discipline:** {{input.discipline}}
+- **Study type:** {{input.study_type}}
 
 ### Output Format
 

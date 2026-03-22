@@ -16,7 +16,7 @@ metadata:
 
 ## Capability
 
-Performs a comprehensive self-review of an academic manuscript, evaluating it against the criteria that peer reviewers and editors typically use when assessing submissions. This skill identifies weaknesses, gaps, and potential objections before the manuscript reaches external reviewers, giving the researcher an opportunity to strengthen their work proactively. The review covers structural completeness, methodological rigour, writing quality, argument strength, and journal-specific requirements.
+Performs a thorough self-review of an academic manuscript, evaluating it against the criteria that peer reviewers and editors typically use when assessing submissions. This skill identifies weaknesses, gaps, and potential objections before the manuscript reaches external reviewers, giving the researcher an opportunity to strengthen their work proactively. The review covers structural completeness, methodological rigour, writing quality, argument strength, and journal-specific requirements.
 
 ## When to Use
 

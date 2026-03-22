@@ -44,7 +44,7 @@ This workflow guides researchers through the complete peer review lifecycle: pre
 
 **Input:** Complete manuscript draft, target journal guidelines (if known)
 
-Invoke the **manuscript-self-review** skill via the **manuscript-readiness-checker** prompt. Evaluate the manuscript against a comprehensive set of submission criteria covering structure, formatting, content completeness, and common rejection triggers.
+Invoke the **manuscript-self-review** skill via the **manuscript-readiness-checker** prompt. Evaluate the manuscript against a thorough set of submission criteria covering structure, formatting, content completeness, and common rejection triggers.
 
 **Output:** Readiness report with a pass/fail assessment for each criterion, specific issues to address, and an overall readiness score.
 
@@ -102,10 +102,27 @@ Invoke the **reviewer-response-crafting** skill via the **reviewer-response-draf
 
 | Name | Required | Description | Example |
 |------|----------|-------------|---------|
-| `{{input.complete_manuscript_draft}}` | Yes | Complete manuscript draft | `Paste the relevant brief, notes, source material, or dataset here.` |
-| `{{input.target_journal_guidelines}}` | Yes | target journal guidelines | `Paste the relevant brief, notes, source material, or dataset here.` |
-| `{{input.manuscript_abstract}}` | Yes | Manuscript abstract | `Paste the relevant brief, notes, source material, or dataset here.` |
-| `{{input.keywords}}` | No | keywords | `growth, onboarding, retention` |
+| `{{input.complete_manuscript_draft}}` | Yes | Complete manuscript draft | `Paste your full manuscript text here.` |
+| `{{input.target_journal_guidelines}}` | Yes | Target journal name and guidelines | `Nature Communications — see author guidelines at...` |
+| `{{input.manuscript_abstract}}` | Yes | Manuscript abstract | `Paste your manuscript abstract here.` |
+| `{{input.keywords}}` | No | Keywords describing the manuscript | `growth, onboarding, retention` |
+| `{{input.discipline}}` | No | Academic discipline | `Psychology` |
+| `{{input.study_type}}` | No | Type of study | `Randomised controlled trial` |
+| `{{input.methodology}}` | No | Methodology used in the study | `Mixed methods — survey and interviews` |
+| `{{input.author_preferences}}` | No | Preferences for journal selection | `Impact factor 3+, open access preferred, turnaround under 3 months` |
+| `{{input.excluded_journals}}` | No | Journals to exclude from recommendations | `Journal of X (previously rejected)` |
+| `{{input.manuscript_title}}` | No | Title of the manuscript | `The Impact of X on Y: A Mixed-Methods Study` |
+| `{{input.authors}}` | No | Author names | `Smith, J., Jones, A., and Brown, K.` |
+| `{{input.editor_name}}` | No | Name of the target journal editor | `Professor Jane Smith` |
+| `{{input.key_findings}}` | No | Key findings from the study | `Intervention X reduced Y by 30% (p < .001)` |
+| `{{input.novelty_statement}}` | No | What is novel about this work | `First study to examine X in the context of Y` |
+| `{{input.ethical_approval}}` | No | Ethical approval details | `Approved by University of X Ethics Committee, ref: 2025-123` |
+| `{{input.conflicts_of_interest}}` | No | Conflicts of interest declaration | `None declared` |
+| `{{input.ai_disclosure}}` | No | AI tool usage disclosure | `Claude was used for literature search assistance` |
+| `{{input.reviewer_comments}}` | No | Reviewer comments (for Stage 5 — post-review) | `Paste all reviewer comments here` |
+| `{{input.editor_letter}}` | No | Editor decision letter (for Stage 5) | `Paste the editor decision letter here` |
+| `{{input.revised_manuscript}}` | No | Revised manuscript (for Stage 5) | `Paste the revised manuscript here` |
+| `{{input.changes_list}}` | No | List of changes made in revision (for Stage 5) | `Added sample size justification, revised discussion` |
 
 ## Outputs
 

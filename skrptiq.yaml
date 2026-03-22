@@ -2,7 +2,7 @@
 name: "peer-review-preparation-flow"
 display_name: "Peer Review Preparation Flow"
 description: "Preparing manuscripts for peer review submission — formatting, self-review, and response to reviewers"
-version: "1.0.0"
+version: "1.2.0"
 engine: ">=1.0.0"
 
 # --- Attribution ---

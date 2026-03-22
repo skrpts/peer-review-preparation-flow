@@ -39,7 +39,7 @@ Focus on research design, sampling, data collection, and analysis:
 
 **Reviewer 2: The Domain Expert**
 Focus on theoretical grounding, literature coverage, and contribution:
-- Is the literature review comprehensive and current?
+- Is the literature review thorough and current?
 - Are there key papers or theoretical frameworks that are missing?
 - Does the study make a genuine contribution to the field, or does it replicate existing knowledge without adding value?
 - Are the findings interpreted correctly in light of existing theory?
@@ -75,10 +75,12 @@ After all three reviews, provide:
 
 ### Inputs
 
-- **Manuscript text:** {{manuscript_text}}
-- **Research field:** {{research_field}}
-- **Target journal:** {{target_journal}}
-- **Study type:** {{study_type}}
+This prompt receives the full manuscript from Stage 1 and the target journal selected in Stage 2. Use the complete manuscript draft, discipline, target journal guidelines, and study type established in the earlier stages to perform the self-critique.
+
+- **Manuscript text:** Use the manuscript from the readiness check stage.
+- **Research field:** Use the discipline from the readiness check stage.
+- **Target journal:** Use the journal selected in Stage 2.
+- **Study type:** Use the study type from the readiness check stage.
 
 ### Output Format
 

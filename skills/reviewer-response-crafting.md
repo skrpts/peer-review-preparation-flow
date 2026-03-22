@@ -16,7 +16,7 @@ metadata:
 
 ## Capability
 
-Crafts professional, comprehensive responses to peer reviewer comments for journal manuscript revisions. This skill handles the full range of reviewer feedback — from minor typographical corrections to major methodological concerns — producing point-by-point responses that are respectful, thorough, and strategically effective. It also drafts cover letters for submission and resubmission.
+Crafts professional, thorough responses to peer reviewer comments for journal manuscript revisions. This skill handles the full range of reviewer feedback — from minor typographical corrections to major methodological concerns — producing point-by-point responses that are respectful, thorough, and strategically effective. It also drafts cover letters for submission and resubmission.
 
 ## When to Use
 

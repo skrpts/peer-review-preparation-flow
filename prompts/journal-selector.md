@@ -64,12 +64,11 @@ Include at least one journal in each category.
 
 ### Inputs
 
-- **Manuscript abstract:** {{manuscript_abstract}}
-- **Keywords:** {{keywords}}
-- **Methodology:** {{methodology}}
-- **Discipline:** {{discipline}}
-- **Author preferences:** {{author_preferences}} (impact factor range, open access requirement, turnaround time, budget for APCs)
-- **Excluded journals:** {{excluded_journals}} (if any)
+- **Manuscript abstract:** {{input.manuscript_abstract}}
+- **Keywords:** {{input.keywords}}
+- **Methodology:** {{input.methodology}}
+- **Author preferences:** {{input.author_preferences}} (impact factor range, open access requirement, turnaround time, budget for APCs)
+- **Excluded journals:** {{input.excluded_journals}} (if any)
 
 ### Output Format
 

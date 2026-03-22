@@ -15,7 +15,7 @@ metadata:
 
 ## Purpose
 
-Drafts comprehensive point-by-point responses to reviewer comments following a revise-and-resubmit decision. This is often the most stressful part of the publication process — this prompt produces professional, thorough responses that address every concern while maintaining the authors' scholarly voice.
+Drafts thorough point-by-point responses to reviewer comments following a revise-and-resubmit decision. This is often the most stressful part of the publication process — this prompt produces professional, thorough responses that address every concern while maintaining the authors' scholarly voice.
 
 ## Prompt
 
@@ -67,11 +67,11 @@ After all point-by-point responses, include a summary table:
 
 ### Inputs
 
-- **Reviewer comments:** {{reviewer_comments}}
-- **Editor decision letter:** {{editor_letter}}
-- **Original manuscript:** {{original_manuscript}}
-- **Revised manuscript:** {{revised_manuscript}}
-- **Changes made:** {{changes_list}} (list of changes already made in the revision)
+- **Reviewer comments:** {{input.reviewer_comments}}
+- **Editor decision letter:** {{input.editor_letter}}
+- **Original manuscript:** Use the manuscript provided at the start of the workflow.
+- **Revised manuscript:** {{input.revised_manuscript}}
+- **Changes made:** {{input.changes_list}} (list of changes already made in the revision)
 
 ### Output Format
 
