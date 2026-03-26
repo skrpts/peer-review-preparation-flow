@@ -70,11 +70,11 @@ Write a cover letter following this structure:
 
 - **Manuscript title:** {{input.manuscript_title}}
 - **Authors:** {{input.authors}}
-- **Target journal:** Use the journal selected in Stage 2.
+- **Target journal:** {{steps.journal-selector.output}}
 - **Editor name:** {{input.editor_name}}
 - **Key findings:** {{input.key_findings}}
 - **Novelty statement:** {{input.novelty_statement}}
-- **Study type:** Use the study type from the readiness check stage.
+- **Study type:** {{input.study_type}}
 - **Ethical approval:** {{input.ethical_approval}}
 - **Conflicts of interest:** {{input.conflicts_of_interest}}
 - **AI tool usage:** {{input.ai_disclosure}} (if applicable)

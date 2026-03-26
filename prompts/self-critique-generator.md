@@ -75,12 +75,11 @@ After all three reviews, provide:
 
 ### Inputs
 
-This prompt receives the full manuscript from Stage 1 and the target journal selected in Stage 2. Use the complete manuscript draft, discipline, target journal guidelines, and study type established in the earlier stages to perform the self-critique.
-
-- **Manuscript text:** Use the manuscript from the readiness check stage.
-- **Research field:** Use the discipline from the readiness check stage.
-- **Target journal:** Use the journal selected in Stage 2.
-- **Study type:** Use the study type from the readiness check stage.
+- **Manuscript readiness report:** {{steps.manuscript-readiness-checker.output}}
+- **Journal selection:** {{steps.journal-selector.output}}
+- **Manuscript text:** {{input.complete_manuscript_draft}}
+- **Research field:** {{input.discipline}}
+- **Study type:** {{input.study_type}}
 
 ### Output Format
 
