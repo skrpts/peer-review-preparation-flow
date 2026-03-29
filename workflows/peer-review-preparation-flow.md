@@ -11,6 +11,8 @@ connections:
     type: uses
   - target: reviewer-response-crafting
     type: uses
+  - target: methodology-assessment
+    type: uses
   - target: manuscript-readiness-checker
     type: uses
   - target: journal-selector
@@ -20,6 +22,8 @@ connections:
   - target: cover-letter-writer
     type: uses
   - target: reviewer-response-drafter
+    type: uses
+  - target: assess-methodology
     type: uses
   - target: llm-service
     type: runs_on
