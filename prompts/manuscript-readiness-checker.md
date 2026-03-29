@@ -3,7 +3,7 @@ type: prompt
 id: manuscript-readiness-checker
 title: Manuscript Readiness Checker
 description: "Checks a manuscript against submission criteria and identifies issues to address"
-tags: [Production, writing:academic, research:ethics, quality:review]
+tags: [Production, Academic, Review]
 connections:
   - target: manuscript-self-review
     type: derived_from

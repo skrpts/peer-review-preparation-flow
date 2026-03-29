@@ -3,7 +3,7 @@ type: source
 id: journal-submission-standards
 title: Journal Submission Standards
 description: "Reference guide to common journal submission requirements across disciplines"
-tags: [Production, Customer-Facing, research:ethics, quality:review, quality:standards]
+tags: [Production, Customer-Facing, Academic, Quality, Review]
 connections: []
 metadata:
   source_type: reference

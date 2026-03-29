@@ -3,7 +3,7 @@ type: prompt
 id: cover-letter-writer
 title: Cover Letter Writer
 description: "Writes a professional journal submission cover letter"
-tags: [Production, writing:communication, research:ethics, quality:review, quality:standards]
+tags: [Production, Academic, Communication, Quality]
 connections:
   - target: reviewer-response-crafting
     type: derived_from

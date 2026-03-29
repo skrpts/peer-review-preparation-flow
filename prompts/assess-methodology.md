@@ -3,7 +3,7 @@ type: prompt
 id: assess-methodology
 title: Assess Methodology
 description: "Evaluates a research methodology for rigour and appropriateness"
-tags: [Production, research:ethics, quality:review]
+tags: [Production, Academic, Research, Review]
 connections:
   - target: methodology-assessment
     type: derived_from

@@ -3,7 +3,7 @@ type: skill
 id: manuscript-self-review
 title: Manuscript Self-Review
 description: "Performs rigorous self-review of academic manuscripts against peer review criteria"
-tags: [Production, Tested, writing:academic, research:ethics, quality:review]
+tags: [Production, Tested, Academic, Review]
 connections:
   - target: llm-service
     type: runs_on

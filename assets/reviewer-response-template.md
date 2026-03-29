@@ -3,7 +3,7 @@ type: asset
 id: reviewer-response-template
 title: Reviewer Response Template
 description: "Structured template for drafting point-by-point responses to peer reviewer comments"
-tags: [Production, Customer-Facing, research:ethics, quality:review]
+tags: [Production, Customer-Facing, Academic, Review]
 connections:
   - target: reviewer-response-drafter
     type: references

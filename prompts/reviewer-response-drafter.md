@@ -3,7 +3,7 @@ type: prompt
 id: reviewer-response-drafter
 title: Reviewer Response Drafter
 description: "Drafts point-by-point responses to peer reviewer comments"
-tags: [Production, research:ethics, quality:review]
+tags: [Production, Academic, Review]
 connections:
   - target: reviewer-response-crafting
     type: derived_from
