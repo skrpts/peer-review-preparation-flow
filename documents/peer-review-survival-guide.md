@@ -3,7 +3,7 @@ type: document
 id: peer-review-survival-guide
 title: Peer Review Survival Guide
 description: "Practical guide to navigating the peer review process from submission to publication"
-tags: [Production, Customer-Facing]
+tags: [Production, Customer-Facing, research:ethics, quality:review]
 connections:
   - target: manuscript-self-review
     type: references

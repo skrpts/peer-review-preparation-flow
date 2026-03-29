@@ -3,7 +3,7 @@ type: prompt
 id: self-critique-generator
 title: Self-Critique Generator
 description: "Generates a rigorous self-critique of a manuscript to anticipate reviewer objections"
-tags: [Production]
+tags: [Production, writing:academic, research:ethics, quality:review]
 connections:
   - target: manuscript-self-review
     type: derived_from

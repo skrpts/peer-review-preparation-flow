@@ -3,7 +3,7 @@ type: skill
 id: journal-fit-analysis
 title: Journal Fit Analysis
 description: "Analyses the fit between a manuscript and potential target journals for submission"
-tags: [Production, Tested]
+tags: [Production, Tested, writing:academic, research:ethics, quality:review]
 connections:
   - target: llm-service
     type: runs_on

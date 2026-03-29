@@ -3,7 +3,7 @@ type: prompt
 id: journal-selector
 title: Journal Selector
 description: "Recommends target journals based on manuscript topic, methodology, and quality"
-tags: [Production]
+tags: [Production, writing:academic, research:ethics, quality:review]
 connections:
   - target: journal-fit-analysis
     type: derived_from

@@ -3,7 +3,7 @@ type: skill
 id: reviewer-response-crafting
 title: Reviewer Response Crafting
 description: "Drafts professional point-by-point responses to peer reviewer comments"
-tags: [Production, Tested]
+tags: [Production, Tested, research:ethics, quality:review]
 connections:
   - target: llm-service
     type: runs_on

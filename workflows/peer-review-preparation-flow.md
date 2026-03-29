@@ -3,7 +3,7 @@ type: workflow
 id: peer-review-preparation-flow
 title: Peer Review Preparation Flow
 description: "End-to-end manuscript preparation for peer review — from self-review through submission and revision"
-tags: [Production, Tested]
+tags: [Production, Tested, writing:academic, research:ethics, quality:review]
 connections:
   - target: manuscript-self-review
     type: uses
