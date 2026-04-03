@@ -33,6 +33,8 @@ connections:
     type: references
   - target: reviewer-response-template
     type: uses
+  - target: brief-compliance-check
+    type: uses
 metadata:
   estimated_duration: "60-90 minutes"
   trigger: manual
