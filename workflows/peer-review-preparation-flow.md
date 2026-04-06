@@ -13,18 +13,6 @@ connections:
     type: uses
   - target: methodology-assessment
     type: uses
-  - target: manuscript-readiness-checker
-    type: uses
-  - target: journal-selector
-    type: uses
-  - target: self-critique-generator
-    type: uses
-  - target: cover-letter-writer
-    type: uses
-  - target: reviewer-response-drafter
-    type: uses
-  - target: assess-methodology
-    type: uses
   - target: llm-service
     type: runs_on
   - target: journal-submission-standards
