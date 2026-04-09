@@ -75,8 +75,8 @@ After all three reviews, provide:
 
 ### Inputs
 
-- **Manuscript readiness report:** {{steps.manuscript-readiness-checker.output}}
-- **Journal selection:** {{steps.journal-selector.output}}
+- **Manuscript readiness report:** {{steps.Manuscript Self-Review.output}}
+- **Journal selection:** {{steps.Journal Fit Analysis.output}}
 - **Manuscript text:** {{input.complete_manuscript_draft}}
 - **Research field:** {{input.discipline}}
 - **Study type:** {{input.study_type}}

@@ -23,6 +23,8 @@ connections:
     type: uses
   - target: brief-compliance-check
     type: uses
+  - target: gap-analysis
+    type: uses
 metadata:
   estimated_duration: "60-90 minutes"
   trigger: manual

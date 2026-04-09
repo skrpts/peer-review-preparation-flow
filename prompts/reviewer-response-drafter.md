@@ -69,7 +69,7 @@ After all point-by-point responses, include a summary table:
 
 - **Reviewer comments:** {{input.reviewer_comments}}
 - **Editor decision letter:** {{input.editor_letter}}
-- **Original manuscript:** {{steps.manuscript-readiness-checker.output}}
+- **Original manuscript:** {{steps.Manuscript Self-Review.output}}
 - **Revised manuscript:** {{input.revised_manuscript}}
 - **Changes made:** {{input.changes_list}} (list of changes already made in the revision)
 

@@ -70,7 +70,7 @@ Write a cover letter following this structure:
 
 - **Manuscript title:** {{input.manuscript_title}}
 - **Authors:** {{input.authors}}
-- **Target journal:** {{steps.journal-selector.output}}
+- **Target journal:** {{steps.Journal Fit Analysis.output}}
 - **Editor name:** {{input.editor_name}}
 - **Key findings:** {{input.key_findings}}
 - **Novelty statement:** {{input.novelty_statement}}
