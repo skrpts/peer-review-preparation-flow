@@ -28,6 +28,20 @@ connections:
 metadata:
   estimated_duration: "60-90 minutes"
   trigger: manual
+execution:
+  - skill: "journal-fit-analysis"
+  - skill: "gap-analysis"
+    input_from: "journal-fit-analysis"
+  - skill: "manuscript-self-review"
+    input_from: "gap-analysis"
+  - skill: "reviewer-response-crafting"
+    input_from: "gap-analysis"
+  - skill: "methodology-assessment"
+    input_from: "gap-analysis"
+  - skill: "reviewer-response-template"
+    input_from: "gap-analysis"
+  - skill: "brief-compliance-check"
+    input_from: "gap-analysis"
 ---
 
 ## Overview
