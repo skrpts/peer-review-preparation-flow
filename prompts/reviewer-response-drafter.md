@@ -4,6 +4,31 @@ id: reviewer-response-drafter
 title: Reviewer Response Drafter
 description: "Drafts point-by-point responses to peer reviewer comments"
 tags: [Production, Academic, Review]
+inputs:
+  reviewer_comments:
+    label: "Reviewer Comments"
+    description: "The reviewer comments to respond to"
+    example: "[Paste reviewer comments here]"
+    required: true
+    type: text
+  editor_letter:
+    label: "Editor Letter"
+    description: "The editor decision letter"
+    example: "[Paste editor letter here]"
+    required: true
+    type: text
+  revised_manuscript:
+    label: "Revised Manuscript"
+    description: "The revised manuscript incorporating changes"
+    example: "[Paste revised manuscript here]"
+    required: true
+    type: text
+  changes_list:
+    label: "Changes List"
+    description: "List of changes included in this release"
+    example: "Added user authentication, fixed pagination bug, updated API docs"
+    required: true
+    type: text
 connections:
   - target: reviewer-response-crafting
     type: derived_from

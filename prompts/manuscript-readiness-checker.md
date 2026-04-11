@@ -4,6 +4,30 @@ id: manuscript-readiness-checker
 title: Manuscript Readiness Checker
 description: "Checks a manuscript against submission criteria and identifies issues to address"
 tags: [Production, Academic, Review]
+inputs:
+  complete_manuscript_draft:
+    label: "Complete Manuscript"
+    description: "The complete manuscript draft for review"
+    example: "[Paste the full manuscript here]"
+    required: true
+    type: text
+  target_journal_guidelines:
+    label: "Journal Guidelines"
+    description: "The target journal submission guidelines"
+    example: "Max 8000 words. Structured abstract (250 words). APA format."
+    required: true
+    type: text
+  discipline:
+    label: "Discipline"
+    description: "Discipline"
+    required: true
+    type: text
+  study_type:
+    label: "Study Type"
+    description: "The type of study"
+    example: "Randomised controlled trial"
+    required: true
+    type: text
 connections:
   - target: manuscript-self-review
     type: derived_from

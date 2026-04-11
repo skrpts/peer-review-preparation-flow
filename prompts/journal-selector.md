@@ -4,6 +4,37 @@ id: journal-selector
 title: Journal Selector
 description: "Recommends target journals based on manuscript topic, methodology, and quality"
 tags: [Production, Academic, Research, Review]
+inputs:
+  manuscript_abstract:
+    label: "Manuscript Abstract"
+    description: "The abstract of the manuscript"
+    example: "[Paste abstract here]"
+    required: true
+    type: text
+  keywords:
+    label: "Keywords"
+    description: "Keywords relevant to the content"
+    example: "productivity, AI tools, workflow automation"
+    required: true
+    type: text
+  methodology:
+    label: "Methodology"
+    description: "The research methodology"
+    example: "Mixed methods: survey (n=200) + semi-structured interviews (n=15)"
+    required: true
+    type: text
+  author_preferences:
+    label: "Author Preferences"
+    description: "Author preferences for the revision"
+    example: "Prefer to keep the current structure. Open to adding a limitations section."
+    required: true
+    type: text
+  excluded_journals:
+    label: "Excluded Journals"
+    description: "Journals to exclude from the search"
+    example: "Predatory journals, non-peer-reviewed outlets"
+    required: true
+    type: text
 connections:
   - target: journal-fit-analysis
     type: derived_from
