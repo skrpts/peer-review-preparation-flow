@@ -30,18 +30,25 @@ metadata:
   trigger: manual
 execution:
   - skill: "journal-fit-analysis"
+    step_type: "synthesis"
   - skill: "gap-analysis"
     input_from: "journal-fit-analysis"
+    step_type: "synthesis"
   - skill: "manuscript-self-review"
     input_from: "gap-analysis"
+    step_type: "review"
   - skill: "reviewer-response-crafting"
     input_from: "gap-analysis"
+    step_type: "generation"
   - skill: "methodology-assessment"
     input_from: "gap-analysis"
+    step_type: "review"
   - skill: "reviewer-response-template"
     input_from: "gap-analysis"
+    step_type: "generation"
   - skill: "brief-compliance-check"
     input_from: "gap-analysis"
+    step_type: "review"
 ---
 
 ## Overview
