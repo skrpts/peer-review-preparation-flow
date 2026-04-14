@@ -3,7 +3,7 @@ id: "42898bc2-82df-4f33-8ecd-c3b1c4b95ec0"
 name: "peer-review-preparation-flow"
 display_name: "Peer Review Preparation Flow"
 description: "Preparing manuscripts for peer review submission — formatting, self-review, and response to reviewers"
-version: "1.1.13"
+version: "1.1.14"
 engine: ">=1.0.0"
 
 # --- Attribution ---
@@ -32,17 +32,6 @@ requires:
     - "pii"
     - "research-manuscripts"
     - "reviewer-feedback"
-
-# --- Output ---
-output_step: "gap-analysis"
-composite_steps:
-  - "manuscript-self-review"
-  - "journal-fit-analysis"
-  - "reviewer-response-crafting"
-  - "methodology-assessment"
-  - "reviewer-response-template"
-  - "brief-compliance-check"
-  - "gap-analysis"
 
 # --- Contents ---
 contents:

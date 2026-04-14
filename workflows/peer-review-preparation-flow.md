@@ -28,6 +28,15 @@ connections:
 metadata:
   estimated_duration: "60-90 minutes"
   trigger: manual
+output_step: "gap-analysis"
+composite_steps:
+  - "manuscript-self-review"
+  - "journal-fit-analysis"
+  - "reviewer-response-crafting"
+  - "methodology-assessment"
+  - "reviewer-response-template"
+  - "brief-compliance-check"
+  - "gap-analysis"
 execution:
   - skill: "journal-fit-analysis"
     step_type: "synthesis"
