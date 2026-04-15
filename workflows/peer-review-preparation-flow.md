@@ -42,17 +42,17 @@ execution:
     step_type: "synthesis"
   - skill: "gap-analysis"
     step_type: "synthesis"
-  - parallel:
-    - skill: "reviewer-response-crafting"
-      step_type: "generation"
-    - skill: "methodology-assessment"
-      step_type: "review"
-    - skill: "reviewer-response-template"
-      step_type: "generation"
-    - skill: "brief-compliance-check"
-      step_type: "review"
+  - skill: "reviewer-response-crafting"
+    step_type: "generation"
+  - skill: "reviewer-response-template"
+    step_type: "generation"
   - skill: "manuscript-self-review"
     step_type: "review"
+  - parallel:
+    - skill: "methodology-assessment"
+      step_type: "review"
+    - skill: "brief-compliance-check"
+      step_type: "review"
 ---
 
 ## Overview
