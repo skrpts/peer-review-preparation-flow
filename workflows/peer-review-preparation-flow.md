@@ -13,6 +13,8 @@ connections:
     type: uses
   - target: methodology-assessment
     type: uses
+  - target: language-polish
+    type: uses
   - target: llm-service
     type: runs_on
   - target: journal-submission-standards
@@ -28,7 +30,7 @@ connections:
 metadata:
   estimated_duration: "60-90 minutes"
   trigger: manual
-output_step: "gap-analysis"
+output_step: "language-polish"
 composite_steps:
   - "manuscript-self-review"
   - "journal-fit-analysis"
@@ -37,6 +39,7 @@ composite_steps:
   - "reviewer-response-template"
   - "brief-compliance-check"
   - "gap-analysis"
+  - "language-polish"
 execution:
   - skill: "journal-fit-analysis"
     step_type: "synthesis"
@@ -48,6 +51,8 @@ execution:
     step_type: "generation"
   - skill: "manuscript-self-review"
     step_type: "review"
+  - skill: "language-polish"
+    step_type: "content"
   - parallel:
     - skill: "methodology-assessment"
       step_type: "review"
