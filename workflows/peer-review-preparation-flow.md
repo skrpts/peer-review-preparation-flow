@@ -47,10 +47,12 @@ execution:
     step_type: "synthesis"
   - skill: "reviewer-response-crafting"
     step_type: "generation"
+    prompt: "reviewer-response-drafter"
   - skill: "reviewer-response-template"
     step_type: "generation"
   - skill: "manuscript-self-review"
     step_type: "review"
+    prompt: "manuscript-readiness-checker"
   - skill: "language-polish"
     step_type: "content"
   - parallel:

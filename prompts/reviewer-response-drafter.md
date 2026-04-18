@@ -10,7 +10,8 @@ inputs:
     description: "The reviewer comments to respond to"
     example: "[Paste reviewer comments here]"
     required: true
-    type: text
+    type: file
+    accept: ".txt,.md,.pdf"
   editor_letter:
     label: "Editor Letter"
     description: "The editor decision letter"
@@ -22,7 +23,8 @@ inputs:
     description: "The revised manuscript incorporating changes"
     example: "[Paste revised manuscript here]"
     required: true
-    type: text
+    type: file
+    accept: ".pdf,.txt,.md,.docx"
   changes_list:
     label: "Changes List"
     description: "List of changes included in this release"

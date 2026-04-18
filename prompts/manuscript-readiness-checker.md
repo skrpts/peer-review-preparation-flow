@@ -10,7 +10,8 @@ inputs:
     description: "The complete manuscript draft for review"
     example: "[Paste the full manuscript here]"
     required: true
-    type: text
+    type: file
+    accept: ".pdf,.txt,.md,.docx"
   target_journal_guidelines:
     label: "Journal Guidelines"
     description: "The target journal submission guidelines"
