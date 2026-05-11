@@ -59,6 +59,9 @@ execution:
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    context:
+      voice_profile: ""
+      grammar_strictness: ""
   - parallel:
     - skill: "methodology-assessment"
       prompt: "assess-methodology"
@@ -66,6 +69,10 @@ execution:
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
+      context:
+        audience_profile: ""
+        compliance_brief: ""
+        compliance_depth: ""
 ---
 
 ## Overview
