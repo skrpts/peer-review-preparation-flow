@@ -110,6 +110,10 @@ Evaluate the manuscript against each criterion below. For each, assign a status:
 - **Discipline:** {{input.discipline}}
 - **Study type:** {{input.study_type}}
 
+### Prior Analysis
+
+{{steps.previous.output}}
+
 ### Output Format
 
 Present the assessment as a structured checklist with PASS/CONDITIONAL PASS/FAIL for each criterion. For CONDITIONAL PASS and FAIL items, explain the specific issue and recommend a concrete fix. Calculate an overall readiness score (percentage of criteria passed). Conclude with a prioritised action list: address FAIL items first, then CONDITIONAL PASS items.
