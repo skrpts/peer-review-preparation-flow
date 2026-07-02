@@ -44,21 +44,27 @@ execution:
   - skill: "journal-fit-analysis"
     prompt: "journal-selector"
     step_type: "synthesis"
+    output: { name: "journal_recommendations", type: "text" }
   - skill: "gap-analysis"
     prompt: "identify-research-gaps"
     step_type: "synthesis"
+    output: { name: "research_gaps", type: "text" }
   - skill: "reviewer-response-crafting"
     step_type: "generation"
     prompt: "reviewer-response-drafter"
+    output: { name: "reviewer_response", type: "text" }
   - skill: "reviewer-response-template"
     prompt: "reviewer-response-drafter"
     step_type: "generation"
+    output: { name: "response_template", type: "text" }
   - skill: "manuscript-self-review"
     step_type: "review"
     prompt: "manuscript-readiness-checker"
+    output: { name: "readiness_assessment", type: "text" }
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
+    output: { name: "polished_manuscript", type: "text" }
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
@@ -66,9 +72,11 @@ execution:
     - skill: "methodology-assessment"
       prompt: "assess-methodology"
       step_type: "review"
+      output: { name: "methodology_assessment", type: "text" }
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
+      output: { name: "compliance_verdict", type: "decision" }
       context:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"

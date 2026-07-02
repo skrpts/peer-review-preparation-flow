@@ -3,7 +3,7 @@ id: "42898bc2-82df-4f33-8ecd-c3b1c4b95ec0"
 name: "peer-review-preparation-flow"
 display_name: "Peer Review Preparation Flow"
 description: "Preparing manuscripts for peer review submission — formatting, self-review, and response to reviewers"
-version: "1.1.31"
+version: "1.1.32"
 engine: ">=0.1.0"
 
 # --- Attribution ---
@@ -85,3 +85,17 @@ contents:
   documents: 1
   assets: 1
   total: 12
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-02T20:18:39.513Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: ["llm-service"]
+    permissions: []
+    data_handling: ["pii"]
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/peer-review-preparation-flow/security"
