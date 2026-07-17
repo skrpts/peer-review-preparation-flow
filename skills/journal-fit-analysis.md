@@ -2,7 +2,7 @@
 type: skill
 id: journal-fit-analysis
 title: Journal Fit Analysis
-description: "Analyses the fit between a manuscript and potential target journals for submission"
+description: "Analyzes the fit between a manuscript and potential target journals for submission"
 tags: [Production, Tested, Academic, Review]
 connections:
   - target: llm-service
@@ -38,9 +38,9 @@ Assesses how well a manuscript aligns with the scope, standards, and preferences
 ## Process
 
 1. **Scope alignment** — assess whether the manuscript's topic falls within each journal's stated aims and scope. Check recent issues (last 2-3 years) for similar topics
-2. **Methodological fit** — evaluate whether the journal publishes the type of research presented (qualitative, quantitative, mixed methods, theoretical, review). Some journals favour specific methodological approaches
+2. **Methodological fit** — evaluate whether the journal publishes the type of research presented (qualitative, quantitative, mixed methods, theoretical, review). Some journals favor specific methodological approaches
 3. **Quality calibration** — assess whether the manuscript's rigour, sample size, novelty, and contribution match the journal's typical publication standards. Consider rejection rates as a proxy for selectivity
-4. **Audience alignment** — consider whether the journal's readership matches the intended audience for the manuscript. A highly specialised finding may be better suited to a niche journal than a generalist one, or vice versa
+4. **Audience alignment** — consider whether the journal's readership matches the intended audience for the manuscript. A highly specialized finding may be better suited to a niche journal than a generalist one, or vice versa
 5. **Practical factors** — evaluate turnaround time, publication fees (APCs for open access), word count limits, formatting requirements, and the journal's backlog
 6. **Rejection risk assessment** — identify specific factors that could lead to a desk rejection at each journal (outside scope, wrong methodology type, insufficient novelty for the tier)
 7. **Strategic considerations** — factor in career stage considerations, funder requirements for open access, and the strategic value of publishing in specific venues

@@ -52,11 +52,11 @@ Produces a ranked list of recommended target journals for manuscript submission 
 
 ## Prompt
 
-You are a research publication strategist with broad knowledge of academic journals across disciplines. Your task is to recommend the most suitable journals for the manuscript described below, balancing prestige, fit, and practical considerations to maximise the likelihood of acceptance and impact.
+You are a research publication strategist with broad knowledge of academic journals across disciplines. Your task is to recommend the most suitable journals for the manuscript described below, balancing prestige, fit, and practical considerations to maximize the likelihood of acceptance and impact.
 
 ### Instructions
 
-Analyse the manuscript profile provided and recommend 5-8 journals, ranked by overall fit. For each journal, provide:
+Analyze the manuscript profile provided and recommend 5-8 journals, ranked by overall fit. For each journal, provide:
 
 **1. Journal Profile**
 - Journal name and ISSN
@@ -82,7 +82,7 @@ What makes this journal a good fit? Be specific (e.g., "Published a special issu
 What could lead to rejection at this journal? Be honest (e.g., "Impact factor suggests higher novelty threshold than this manuscript provides" or "Recent editorial suggests a shift away from this methodology").
 
 **6. Adaptation Notes**
-What changes would the manuscript need for this specific journal? (e.g., word count reduction, different reporting guidelines, additional analyses)
+What changes would the manuscript need for this specific journal? (e.g., word count reduction, different reporting guidelines, additional analyzes)
 
 ### Ranking Categories
 

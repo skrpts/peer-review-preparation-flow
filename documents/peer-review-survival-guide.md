@@ -21,7 +21,7 @@ metadata:
 #### Timeline Expectations
 - **Desk decision:** 1-4 weeks. The editor decides whether to send the manuscript for review or desk-reject it. Desk rejection rates at top journals can exceed 50%.
 - **Peer review:** 4-12 weeks. Reviewers assess the manuscript. Two to three reviewers is standard. Some journals use single-blind review (reviewers know who you are), others use double-blind (neither party knows), and a growing number offer open review.
-- **Decision:** The editor synthesises reviewer recommendations and decides: accept, minor revision, major revision, revise and resubmit, or reject.
+- **Decision:** The editor synthesizes reviewer recommendations and decides: accept, minor revision, major revision, revise and resubmit, or reject.
 - **Revision:** 4-12 weeks to prepare a revision (journals typically set a deadline). Multiple rounds of revision are common for major revisions.
 - **Production:** 2-8 weeks from acceptance to online publication. Print publication may take longer.
 
@@ -76,7 +76,7 @@ The waiting period is anxiety-inducing but unproductive to obsess over. While yo
 #### Reading Reviews
 1. Read all reviews through once without taking action. Your first emotional reaction is rarely your best response.
 2. Wait 24-48 hours before drafting responses. This cooling-off period is essential, especially if the reviews feel unfair.
-3. Re-read with a pen: categorise each comment as methodological, theoretical, writing, or editorial.
+3. Re-read with a pen: categorize each comment as methodological, theoretical, writing, or editorial.
 4. Identify the core concerns versus peripheral suggestions. Editors care most about whether the core concerns are addressed.
 
 #### Types of Reviewer Comments
@@ -87,7 +87,7 @@ The easiest to handle. Thank the reviewer, make the change, reference the specif
 **Constructive criticism you disagree with:**
 The most challenging. You must decide: is the reviewer right and you are emotionally attached to your original approach, or is the reviewer genuinely wrong? If you disagree, provide a substantive, evidence-based justification. Never simply assert "we disagree." Cite published evidence, methodological guidelines, or logical reasoning.
 
-**Requests for additional analyses:**
+**Requests for additional analyzes:**
 Evaluate whether the requested analysis would genuinely strengthen the paper. If yes, do it. If no, explain why the current analysis is sufficient and why the requested alternative would not change the conclusions (or would be inappropriate for the data).
 
 **Comments based on misunderstanding:**
@@ -105,7 +105,7 @@ Rare but it happens. Maintain professionalism. Address the substance of the comm
 2. Your response letter is complete with page/line references for all changes
 3. The revised manuscript is consistent — changes in one section have been reflected throughout
 4. Track changes or a highlighted version is provided (if required by the journal)
-5. The cover letter to the editor summarises the major changes
+5. The cover letter to the editor summarizes the major changes
 6. New references added during revision are correctly formatted
 7. Word count still meets the journal's limits
 8. All co-authors have approved the revised version
@@ -122,7 +122,7 @@ This is painful but not uncommon. Before submitting elsewhere:
 ### Career-Stage Considerations
 
 **Early-career researchers:**
-- Prioritise getting published over impact factor. A published paper in a solid journal is infinitely more valuable than a desk rejection from Nature.
+- Prioritize getting published over impact factor. A published paper in a solid journal is infinitely more valuable than a desk rejection from Nature.
 - Ask your supervisor or a mentor to review your response letter before resubmission
 - Keep records of all submission dates, decisions, and revision timelines for your CV
 

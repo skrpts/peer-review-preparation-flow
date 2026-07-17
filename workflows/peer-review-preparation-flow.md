@@ -53,7 +53,7 @@ execution:
     step_type: "generation"
     prompt: "reviewer-response-drafter"
     output: { name: "reviewer_response", type: "text" }
-  - skill: "reviewer-response-template"
+  - id: "reviewer-response-template"
     prompt: "reviewer-response-drafter"
     step_type: "generation"
     output: { name: "response_template", type: "text" }
@@ -103,7 +103,7 @@ Invoke the **manuscript-self-review** skill via the **manuscript-readiness-check
 
 **Input:** Manuscript abstract, keywords, methodology type, field of study, author preferences (impact factor range, open access requirements, turnaround time expectations)
 
-Invoke the **journal-fit-analysis** skill via the **journal-selector** prompt. Analyse the manuscript's fit with potential target journals and produce a ranked recommendation list.
+Invoke the **journal-fit-analysis** skill via the **journal-selector** prompt. Analyze the manuscript's fit with potential target journals and produce a ranked recommendation list.
 
 **Output:** Ranked list of 5-8 recommended journals with fit scores, key decision factors, and potential concerns for each.
 
@@ -115,7 +115,7 @@ Invoke the **journal-fit-analysis** skill via the **journal-selector** prompt. A
 
 Invoke the **manuscript-self-review** skill via the **self-critique-generator** prompt. Produce a rigorous self-critique that anticipates likely reviewer objections, identifies methodological weaknesses, and flags areas where the argument could be strengthened.
 
-**Output:** Detailed self-critique with prioritised recommendations for strengthening the manuscript before submission.
+**Output:** Detailed self-critique with prioritized recommendations for strengthening the manuscript before submission.
 
 **Checkpoint:** Address all critical and major issues identified in the self-critique. For minor issues, make a deliberate decision to address or accept each one. Document your rationale for any issues you choose not to address — this will help when responding to reviewers later.
 
@@ -142,7 +142,7 @@ Invoke the **reviewer-response-crafting** skill via the **reviewer-response-draf
 ## Error Handling
 
 - If the manuscript readiness check identifies structural problems (missing abstract, incomplete methods), halt the pipeline and address these before proceeding to journal selection
-- If no suitable journals are found (all fit scores below 50%), consider whether the manuscript needs repositioning: a different framing, additional analyses, or a shift in target audience
+- If no suitable journals are found (all fit scores below 50%), consider whether the manuscript needs repositioning: a different framing, additional analyzes, or a shift in target audience
 - If the self-critique identifies a fatal flaw (e.g., fundamental methodological error, insufficient sample size for the claimed conclusions), escalate this to the researcher rather than proceeding to submission
 - If reviewer comments are contradictory (Reviewer 1 wants more detail, Reviewer 2 wants less), address both comments explicitly, explain the contradiction to the editor, and state your resolution rationale
 - If the editor requests a major revision but the reviewers' comments suggest rejection, address all comments thoroughly but consider whether a different journal might be a better fit for a substantially revised version
@@ -179,7 +179,7 @@ Invoke the **reviewer-response-crafting** skill via the **reviewer-response-draf
 |------|-------------|
 | Readiness report | Readiness report with a pass/fail assessment for each criterion, specific issues to address, and an overall readiness score |
 | Ranked list of 5-8 recommended journals | Ranked list of 5-8 recommended journals with fit scores, key decision factors, and potential concerns for each |
-| Detailed self-critique | Detailed self-critique with prioritised recommendations for strengthening the manuscript before submission |
+| Detailed self-critique | Detailed self-critique with prioritized recommendations for strengthening the manuscript before submission |
 | Complete cover letter ready for submission | Complete cover letter ready for submission |
 | Complete response document addressing every reviewer comment | Complete response document addressing every reviewer comment with specific references to changes made in the revised manuscript |
 
@@ -188,7 +188,7 @@ Invoke the **reviewer-response-crafting** skill via the **reviewer-response-draf
 Before running this workflow:
 
 1. No external services required — paste your content directly and provide any supporting context as inputs or source nodes.
-2. Review the included documents, assets, or source nodes and customise them to match your team, brand, or domain conventions where needed.
+2. Review the included documents, assets, or source nodes and customize them to match your team, brand, or domain conventions where needed.
 3. No specific AI provider or API key is required beyond your configured skrptiq LLM provider.
 
 ## Provider Notes

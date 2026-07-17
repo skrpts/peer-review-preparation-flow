@@ -26,7 +26,7 @@ Most peer-reviewed journals require the following, regardless of discipline:
 | References | Formatted in the journal's required style |
 | Tables | Each on a separate page, numbered sequentially, with descriptive captions |
 | Figures | High resolution (300+ DPI), acceptable formats (TIFF, EPS, PDF, high-quality JPEG) |
-| Supplementary materials | Clearly labelled and referenced in the main text |
+| Supplementary materials | Clearly labeled and referenced in the main text |
 
 #### Ethical and Compliance Statements
 | Statement | When Required |
@@ -53,7 +53,7 @@ Most peer-reviewed journals require the following, regardless of discipline:
 - **Reporting standard:** Vancouver style (ICMJE recommendations)
 - **Word count:** 3,000-5,000 words for original research
 - **Common reporting guidelines:** CONSORT, PRISMA (systematic reviews), STARD (diagnostic accuracy), MOOSE (meta-analyses)
-- **Trial registration:** Required before enrolment for clinical trials
+- **Trial registration:** Required before enrollment for clinical trials
 - **Ethics:** Full IRB/ethics committee approval details required
 - **ORCID:** Often mandatory for all authors
 
@@ -100,7 +100,7 @@ Most peer-reviewed journals require the following, regardless of discipline:
 | Requirement | Standard |
 |-------------|---------|
 | Resolution | 300 DPI minimum for photographs, 600 DPI for line art |
-| Colour model | CMYK for print, RGB acceptable for online-only |
+| Color model | CMYK for print, RGB acceptable for online-only |
 | File formats | TIFF, EPS, or PDF preferred; high-quality JPEG acceptable |
 | Maximum file size | Typically 10-20 MB per figure |
 | Font size in figures | Minimum 8pt after scaling to final reproduction size |

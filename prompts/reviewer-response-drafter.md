@@ -53,7 +53,7 @@ You are a senior academic who has successfully navigated dozens of peer review c
 **1. Editor Response**
 Begin with a brief (150-200 word) cover letter to the editor:
 - Thank the editor and reviewers for their constructive feedback
-- Summarise the major changes made in the revision (3-5 bullet points)
+- Summarize the major changes made in the revision (3-5 bullet points)
 - Note any changes in scope, methodology, or conclusions resulting from the revision
 - If any reviewer comments were not addressed, explain why briefly
 
@@ -71,7 +71,7 @@ Follow these principles for each response:
 - **Demonstrate understanding:** Restate the concern in your own words if the comment is complex
 - **Be specific about changes:** "We have revised the Methods section (pp. 8-9, lines 234-256) to include..." rather than "We have addressed this concern"
 - **Provide evidence for disagreements:** If you disagree with a reviewer, cite published evidence, methodological guidelines, or logical reasoning. Never simply assert your position
-- **Handle unfair comments gracefully:** If a comment is based on a misreading, gently clarify without being condescending: "We appreciate this comment and realise that our original wording may have been unclear. We have revised the text to clarify that..."
+- **Handle unfair comments gracefully:** If a comment is based on a misreading, gently clarify without being condescending: "We appreciate this comment and realize that our original wording may have been unclear. We have revised the text to clarify that..."
 
 **3. Contradictory Reviewer Feedback**
 When reviewers disagree with each other:
@@ -79,8 +79,8 @@ When reviewers disagree with each other:
 - Explain your resolution and the reasoning behind it
 - Invite the editor's guidance: "We welcome the editor's advice on the most appropriate approach"
 
-**4. Requests for Additional Analyses**
-When reviewers request analyses you cannot or should not perform:
+**4. Requests for Additional Analyzes**
+When reviewers request analyzes you cannot or should not perform:
 - Explain why the requested analysis is not feasible or appropriate
 - If possible, offer an alternative analysis that addresses the underlying concern
 - If you did perform the requested analysis, present the results clearly
@@ -102,4 +102,4 @@ After all point-by-point responses, include a summary table:
 
 ### Output Format
 
-Use the **reviewer-response-template** asset as the structural framework. Organise responses by reviewer (Reviewer 1 comments, then Reviewer 2, etc.). Number comments sequentially within each reviewer's section. Use blockquotes for reviewer comments and normal text for responses. Include the summary table at the end.
+Use the **reviewer-response-template** asset as the structural framework. Organize responses by reviewer (Reviewer 1 comments, then Reviewer 2, etc.). Number comments sequentially within each reviewer's section. Use blockquotes for reviewer comments and normal text for responses. Include the summary table at the end.

@@ -50,10 +50,10 @@ Adopt three reviewer personas and provide feedback from each:
 Focus on research design, sampling, data collection, and analysis:
 - Is the research design appropriate for the stated research questions?
 - Are there threats to internal or external validity that are not acknowledged?
-- Is the sample size adequate for the statistical analyses performed?
+- Is the sample size adequate for the statistical analyzes performed?
 - Are the measures valid and reliable? Is evidence of validity/reliability provided?
 - Is the analysis approach correct and sufficiently rigorous?
-- Could alternative analyses yield different conclusions?
+- Could alternative analyzes yield different conclusions?
 - Are the limitations section honest and complete, or does it gloss over serious issues?
 
 **Reviewer 2: The Domain Expert**

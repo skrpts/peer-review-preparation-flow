@@ -36,18 +36,18 @@ Performs a thorough self-review of an academic manuscript, evaluating it against
 
 ## Process
 
-1. **Structural completeness** — verify all required sections are present and appropriately developed. Check that the abstract accurately summarises the full paper. Confirm that the introduction establishes the gap, the methods are reproducible, the results answer the research questions, and the discussion interprets the findings
+1. **Structural completeness** — verify all required sections are present and appropriately developed. Check that the abstract accurately summarizes the full paper. Confirm that the introduction establishes the gap, the methods are reproducible, the results answer the research questions, and the discussion interprets the findings
 2. **Methodological assessment** — evaluate the rigour of the research design, sampling strategy, data collection, and analysis. Identify potential threats to internal and external validity. Check whether limitations are adequately acknowledged
 3. **Argument coherence** — trace the logical thread from research questions through findings to conclusions. Identify any logical leaps, unsupported claims, or conclusions that overreach the evidence
 4. **Writing quality** — assess clarity, conciseness, and academic tone. Flag jargon that is not defined, sentences that are unnecessarily complex, and paragraphs that lack clear topic sentences
 5. **Citation adequacy** — check that key claims are supported by citations, that the literature review is current and balanced, and that seminal works in the field are referenced
-6. **Figure and table quality** — evaluate whether figures and tables are necessary, clear, correctly labelled, and referenced in the text
+6. **Figure and table quality** — evaluate whether figures and tables are necessary, clear, correctly labeled, and referenced in the text
 7. **Journal fit** — if a target journal is specified, assess the manuscript against journal-specific requirements (word count, structure, reference format, reporting guidelines)
 
 ## Outputs
 
 - Section-by-section assessment with specific strengths and weaknesses
-- Prioritised list of recommended revisions (critical, major, minor)
+- Prioritized list of recommended revisions (critical, major, minor)
 - Readiness score (0-100) indicating overall submission readiness
 - Anticipated reviewer objections with suggested pre-emptive responses
 - Journal-specific compliance checklist (if target journal is specified)

@@ -37,7 +37,7 @@ Crafts professional, thorough responses to peer reviewer comments for journal ma
 
 ## Process
 
-1. **Categorise comments** — classify each reviewer comment by type (methodological concern, writing clarity, additional analysis requested, missing reference, factual correction, formatting issue, editorial suggestion) and severity (major, minor, editorial)
+1. **Categorize comments** — classify each reviewer comment by type (methodological concern, writing clarity, additional analysis requested, missing reference, factual correction, formatting issue, editorial suggestion) and severity (major, minor, editorial)
 2. **Draft individual responses** — for each comment, produce a response that:
    - Begins by thanking the reviewer for the specific feedback
    - Restates the concern in the author's own words (demonstrating understanding)
@@ -45,12 +45,12 @@ Crafts professional, thorough responses to peer reviewer comments for journal ma
    - If no change was made: provides a clear, evidence-based justification
    - Maintains a respectful, collegial tone throughout, even for unfair or poorly informed comments
 3. **Handle contradictory feedback** — when reviewers disagree with each other, acknowledge both perspectives, explain how you resolved the tension, and invite the editor's guidance
-4. **Draft cover letter** — for initial submissions: highlight novelty, contribution, and fit. For revisions: summarise the main changes made and express gratitude for the reviewers' time
+4. **Draft cover letter** — for initial submissions: highlight novelty, contribution, and fit. For revisions: summarize the main changes made and express gratitude for the reviewers' time
 5. **Cross-reference changes** — verify that every claimed change in the response letter is actually present in the revised manuscript. Flag any discrepancies
 
 ## Outputs
 
-- Complete point-by-point response document organised by reviewer
+- Complete point-by-point response document organized by reviewer
 - Cover letter for the editor
 - Summary of changes table (change number, reviewer comment, action taken, location in revised manuscript)
 - List of any unresolved issues or areas where editorial guidance is sought

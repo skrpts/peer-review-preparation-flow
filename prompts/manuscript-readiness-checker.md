@@ -78,12 +78,12 @@ Evaluate the manuscript against each criterion below. For each, assign a status:
 **4. Results**
 - Results are presented in logical order following the research questions
 - Statistical results include test statistic, degrees of freedom, p-value, and effect size
-- Tables and figures are necessary, clearly labelled, and referenced in the text
+- Tables and figures are necessary, clearly labeled, and referenced in the text
 - Results are presented without interpretation (saved for discussion)
 - No results appear that were not foreshadowed by the methods section
 
 **5. Discussion**
-- Key findings are summarised and interpreted
+- Key findings are summarized and interpreted
 - Findings are compared with previous research
 - Limitations are honestly acknowledged
 - Implications (theoretical and practical) are discussed
@@ -116,4 +116,4 @@ Evaluate the manuscript against each criterion below. For each, assign a status:
 
 ### Output Format
 
-Present the assessment as a structured checklist with PASS/CONDITIONAL PASS/FAIL for each criterion. For CONDITIONAL PASS and FAIL items, explain the specific issue and recommend a concrete fix. Calculate an overall readiness score (percentage of criteria passed). Conclude with a prioritised action list: address FAIL items first, then CONDITIONAL PASS items.
+Present the assessment as a structured checklist with PASS/CONDITIONAL PASS/FAIL for each criterion. For CONDITIONAL PASS and FAIL items, explain the specific issue and recommend a concrete fix. Calculate an overall readiness score (percentage of criteria passed). Conclude with a prioritized action list: address FAIL items first, then CONDITIONAL PASS items.
