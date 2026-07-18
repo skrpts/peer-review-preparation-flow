@@ -59,6 +59,16 @@ inputs:
     example: "ChatGPT used for initial literature search. All analysis conducted manually."
     required: true
     type: text
+context_params:
+  self_critique:
+    label: "Self-Critique"
+    description: "The reviewer-style self-critique — grounds the letter's claims so nothing is overstated or undersold."
+    required: false
+    default_from_previous: true
+  journal_recommendations:
+    label: "Journal Recommendations"
+    description: "The ranked journal recommendations — identifies the target journal the letter is tailored to."
+    required: false
 connections:
   - target: reviewer-response-crafting
     type: derived_from
@@ -125,7 +135,8 @@ Write a cover letter following this structure:
 
 - **Manuscript title:** {{input.manuscript_title}}
 - **Authors:** {{input.authors}}
-- **Target journal:** {{steps.Journal Fit Analysis.output}}
+- **Target journal:** {{step.context.journal_recommendations}}
+- **Self-critique (to keep claims grounded):** {{step.context.self_critique}}
 - **Editor name:** {{input.editor_name}}
 - **Key findings:** {{input.key_findings}}
 - **Novelty statement:** {{input.novelty_statement}}

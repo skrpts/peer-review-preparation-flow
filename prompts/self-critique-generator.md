@@ -23,6 +23,16 @@ inputs:
     example: "Randomised controlled trial"
     required: true
     type: text
+context_params:
+  readiness_assessment:
+    label: "Manuscript Readiness Assessment"
+    description: "The manuscript readiness report — the starting point for the self-critique."
+    required: false
+    default_from_previous: true
+  journal_recommendations:
+    label: "Journal Recommendations"
+    description: "The ranked journal recommendations — sets the scope and reviewer expectations to critique against."
+    required: false
 connections:
   - target: manuscript-self-review
     type: derived_from
@@ -94,8 +104,8 @@ After all three reviews, provide:
 
 ### Inputs
 
-- **Manuscript readiness report:** {{steps.previous.output}}
-- **Journal selection:** {{steps.Journal Fit Analysis.output}}
+- **Manuscript readiness report:** {{step.context.readiness_assessment}}
+- **Journal selection:** {{step.context.journal_recommendations}}
 - **Manuscript text:** {{input.complete_manuscript_draft}}
 - **Research field:** {{input.discipline}}
 - **Study type:** {{input.study_type}}

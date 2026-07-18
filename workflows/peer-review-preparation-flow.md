@@ -9,6 +9,10 @@ connections:
     type: uses
   - target: journal-fit-analysis
     type: uses
+  - target: self-critique-analysis
+    type: uses
+  - target: cover-letter-drafting
+    type: uses
   - target: reviewer-response-crafting
     type: uses
   - target: methodology-assessment
@@ -34,6 +38,8 @@ output_step: "language-polish"
 composite_steps:
   - "manuscript-self-review"
   - "journal-fit-analysis"
+  - "self-critique-analysis"
+  - "cover-letter-drafting"
   - "reviewer-response-crafting"
   - "methodology-assessment"
   - "reviewer-response-template"
@@ -61,6 +67,28 @@ execution:
     step_type: "review"
     prompt: "manuscript-readiness-checker"
     output: { name: "readiness_assessment", type: "text" }
+  - skill: "self-critique-analysis"
+    prompt: "self-critique-generator"
+    step_type: "review"
+    output: { name: "self_critique", type: "text" }
+    bindings:
+      readiness_assessment:
+        from_step: "Manuscript Self-Review"
+        field: output
+      journal_recommendations:
+        from_step: "Journal Fit Analysis"
+        field: output
+  - skill: "cover-letter-drafting"
+    prompt: "cover-letter-writer"
+    step_type: "generation"
+    output: { name: "cover_letter", type: "text" }
+    bindings:
+      self_critique:
+        from_step: "Self-Critique Analysis"
+        field: output
+      journal_recommendations:
+        from_step: "Journal Fit Analysis"
+        field: output
   - skill: "language-polish"
     prompt: "polish-language"
     step_type: "content"
@@ -68,6 +96,10 @@ execution:
     context:
       voice_profile: "Neutral professional tone"
       grammar_strictness: "Professional"
+    bindings:
+      source:
+        from_step: "Cover Letter Drafting"
+        field: output
   - parallel:
     - skill: "methodology-assessment"
       prompt: "assess-methodology"

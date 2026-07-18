@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.34
+GH#863 Wave 1 — fix K-045 intent/output-mismatch: wire the two deliverable-producing prompts that were never invoked. `self-critique-generator` (the self-critique) and `cover-letter-writer` (the submission cover letter, the primary deliverable) now run as execution steps in dependency order, with the cover letter as the final content step before language polish. Adds two backing skills (`self-critique-analysis`, `cover-letter-drafting`) so the new `from_step` targets resolve by title; converts the wired prompts' cross-step refs to named context_params with `bindings:`; re-pins `polish-language` to 1.0.6 and binds its `source` slot to the cover letter. Skills 3→5, total 12→14.
+
 ## v1.1.33
 GH#845 — republish with American English (en-US) content, completing the source-only GH#805 flip that never reached the Hub. Copy only — no functional or behaviour change.
 
