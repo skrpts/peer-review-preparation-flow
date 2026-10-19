@@ -1,5 +1,8 @@
 # Release Notes
 
+## v1.1.35
+GH#1044 — document the inputs this workflow's prompts REQUIRE but its Inputs table never listed. A user supplying exactly what the table asked for was running with required parameters unsatisfied — a silent wrong run, not a documentation nicety. documented 4 input(s): field_specific_standards, known_limitations, literature_summary, research_topic. Every row is generated from the requiring prompt's own declared description, example and required flag — none invented. No behaviour change; documentation only.
+
 ## v1.1.34
 GH#863 Wave 1 — fix K-045 intent/output-mismatch: wire the two deliverable-producing prompts that were never invoked. `self-critique-generator` (the self-critique) and `cover-letter-writer` (the submission cover letter, the primary deliverable) now run as execution steps in dependency order, with the cover letter as the final content step before language polish. Adds two backing skills (`self-critique-analysis`, `cover-letter-drafting`) so the new `from_step` targets resolve by title; converts the wired prompts' cross-step refs to named context_params with `bindings:`; re-pins `polish-language` to 1.0.6 and binds its `source` slot to the cover letter. Skills 3→5, total 12→14.
 

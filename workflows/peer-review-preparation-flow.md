@@ -204,6 +204,10 @@ Invoke the **reviewer-response-crafting** skill via the **reviewer-response-draf
 | `{{input.editor_letter}}` | No | Editor decision letter (for Stage 5) | `Paste the editor decision letter here` |
 | `{{input.revised_manuscript}}` | No | Revised manuscript (for Stage 5) | `Paste the revised manuscript here` |
 | `{{input.changes_list}}` | No | List of changes made in revision (for Stage 5) | `Added sample size justification, revised discussion` |
+| `{{input.field_specific_standards}}` | Yes | Field-specific reporting standards | `CONSORT for RCTs, STROBE for observational studies` |
+| `{{input.known_limitations}}` | Yes | Known limitations or constraints in the existing literature | `Most studies use self-reported data. Limited longitudinal evidence.` |
+| `{{input.literature_summary}}` | Yes | A summary of the existing literature on the topic | `Three meta-analyses have examined this relationship...` |
+| `{{input.research_topic}}` | Yes | The research area or question to investigate | `Machine learning applications in early disease detection` |
 
 ## Outputs
 
