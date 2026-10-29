@@ -55,6 +55,10 @@ execution:
     prompt: "identify-research-gaps"
     step_type: "synthesis"
     output: { name: "research_gaps", type: "text" }
+    bindings:
+      source:
+        from_step: "Journal Fit Analysis"
+        field: output
   - skill: "reviewer-response-crafting"
     step_type: "generation"
     prompt: "reviewer-response-drafter"
@@ -105,6 +109,10 @@ execution:
       prompt: "assess-methodology"
       step_type: "review"
       output: { name: "methodology_assessment", type: "text" }
+      bindings:
+        source:
+          from_step: "Research Gap Identification"
+          field: output
     - skill: "brief-compliance-check"
       prompt: "check-brief-compliance"
       step_type: "review"
@@ -113,6 +121,10 @@ execution:
         audience_profile: "General professional audience"
         compliance_brief: "No specific compliance requirements"
         compliance_depth: "Standard"
+      bindings:
+        source:
+          from_step: "Language Polish"
+          field: output
 ---
 
 ## Overview

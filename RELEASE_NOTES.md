@@ -1,5 +1,10 @@
 # Release Notes
 
+## v1.1.36
+GH#1100 consumer wave batch 5 — declare the data flow these steps were resolving positionally. 3 binding(s) added: `identify-research-gaps` ← Journal Fit Analysis; `assess-methodology` ← Research Gap Identification; `check-brief-compliance` ← Language Polish. Each dependency was also re-pinned to the version that introduced its `source` slot, with checksums resolved from the live catalogue rather than transcribed — a binding against a pin below the slot version is declared but inert, which the canonical scan reports as `execution_bindings_unused_key`.
+
+`assess-methodology` is bound to **Research Gap Identification**, not to the step that precedes it: its slot is labelled "Research Gap Analysis", and the adjacent predecessor is cover-letter drafting. Binding by position would have fed a cover letter to a slot asking for a gap analysis.
+
 ## v1.1.35
 GH#1044 — document the inputs this workflow's prompts REQUIRE but its Inputs table never listed. A user supplying exactly what the table asked for was running with required parameters unsatisfied — a silent wrong run, not a documentation nicety. documented 4 input(s): field_specific_standards, known_limitations, literature_summary, research_topic. Every row is generated from the requiring prompt's own declared description, example and required flag — none invented. No behaviour change; documentation only.
 
