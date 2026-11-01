@@ -64,7 +64,6 @@ context_params:
     label: "Self-Critique"
     description: "The reviewer-style self-critique — grounds the letter's claims so nothing is overstated or undersold."
     required: false
-    default_from_previous: true
   journal_recommendations:
     label: "Journal Recommendations"
     description: "The ranked journal recommendations — identifies the target journal the letter is tailored to."

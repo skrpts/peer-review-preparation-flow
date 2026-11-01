@@ -28,7 +28,6 @@ context_params:
     label: "Manuscript Readiness Assessment"
     description: "The manuscript readiness report — the starting point for the self-critique."
     required: false
-    default_from_previous: true
   journal_recommendations:
     label: "Journal Recommendations"
     description: "The ranked journal recommendations — sets the scope and reviewer expectations to critique against."
