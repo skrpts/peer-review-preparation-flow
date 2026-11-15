@@ -26,7 +26,7 @@ connections:
   - target: peer-review-survival-guide
     type: references
   - target: reviewer-response-template
-    type: uses
+    type: references
   - target: brief-compliance-check
     type: uses
   - target: gap-analysis
@@ -42,7 +42,6 @@ composite_steps:
   - "cover-letter-drafting"
   - "reviewer-response-crafting"
   - "methodology-assessment"
-  - "reviewer-response-template"
   - "brief-compliance-check"
   - "gap-analysis"
   - "language-polish"
@@ -63,10 +62,6 @@ execution:
     step_type: "generation"
     prompt: "reviewer-response-drafter"
     output: { name: "reviewer_response", type: "text" }
-  - id: "reviewer-response-template"
-    prompt: "reviewer-response-drafter"
-    step_type: "generation"
-    output: { name: "response_template", type: "text" }
   - skill: "manuscript-self-review"
     step_type: "review"
     prompt: "manuscript-readiness-checker"

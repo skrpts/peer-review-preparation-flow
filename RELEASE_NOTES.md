@@ -1,5 +1,18 @@
 # Release Notes
 
+## v1.1.38
+GH#1214 — remove a duplicate stage declaration that ran nothing.
+
+This workflow declared the reviewer-response stage twice: once correctly, keyed to the
+**reviewer-response-crafting** skill, and once more keyed to `id: "reviewer-response-template"`. A
+template is an asset and cannot back an executable step, so the second declaration matched no
+planner branch and was dropped silently.
+
+**Nothing changes about what this workflow does.** The stage has always run, via the skill-keyed
+entry; the duplicate was decorative. It is removed, along with its `composite_steps` entry, and the
+response template is now declared as reference material rather than as something the workflow uses
+as a step.
+
 ## v1.1.37
 GH#1143 — remove 2 `default_from_previous` declarations. K-073 revoked the key, and the consumer wave has since bound every slot that carried it, so the fallback can no longer fire: the declaration was inert.
 
